@@ -1,4 +1,7 @@
 package com.qinjun.autotest.tsperfagent.service;
 
-public class ICpuService {
+import com.qinjun.autotest.tsperfagent.exception.TSPerfAgentException;
+
+public interface ICpuService {
+    public void recordCpu() throws TSPerfAgentException;
 }

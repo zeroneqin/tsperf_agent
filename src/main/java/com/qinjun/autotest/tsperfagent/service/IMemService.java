@@ -1,4 +1,8 @@
 package com.qinjun.autotest.tsperfagent.service;
 
-public class IMemService {
+import com.qinjun.autotest.tsperfagent.exception.TSPerfAgentException;
+
+public interface IMemService {
+    public void recordMem() throws TSPerfAgentException;
+
 }

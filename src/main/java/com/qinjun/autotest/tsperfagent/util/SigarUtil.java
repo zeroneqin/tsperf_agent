@@ -17,7 +17,13 @@ public class SigarUtil {
                     if (sigar==null) {
                         File classPath= new File("src/main/resources/lib");
                         String path = System.getProperty("java.library.path");
-
+                        if (OSUtil.getOSType()== OSUtil.OSType.WINDOWS) {
+                            path+=";"+classPath.getCanonicalPath();
+                        }else {
+                            path +=":"+classPath.getCanonicalPath();
+                        }
+                        System.setProperty("java.library.path",path);
+                        sigar = new Sigar();
                     }
                 }
             }

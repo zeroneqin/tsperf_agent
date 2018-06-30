@@ -11,6 +11,7 @@ public class TSPerfAgentCtl {
     @Autowired
     private IMetricService metricService;
 
+    @RequestMapping("/start")
     public Response start() {
         Response response = new Response();
         response.setSuccess(true);
@@ -22,6 +23,21 @@ public class TSPerfAgentCtl {
         catch (Exception e) {
             response.setSuccess(false);
             response.setMsg(e.toString());
+        }
+        return response;
+    }
+
+    @RequestMapping("/stop")
+    public Response stop() {
+        Response response = new Response();
+        response.setSuccess(true);
+        response.setMsg("Success");
+        try {
+            metricService.stopMetric();
+        }
+        catch (Exception e) {
+            response.setSuccess(false);
+            response.setMsg("Get exception:"+e);
         }
         return response;
     }

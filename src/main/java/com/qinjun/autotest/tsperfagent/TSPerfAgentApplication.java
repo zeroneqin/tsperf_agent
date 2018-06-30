@@ -7,6 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class TSPerfAgentApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(TSPerfAgentApplication.class, args);
+		SpringApplication springApplication = new SpringApplication(TSPerfAgentApplication.class);
+		springApplication.addListeners(new TSPerfAgentListener());
+		springApplication.run(args);
 	}
 }

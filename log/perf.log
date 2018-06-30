@@ -1,0 +1,600 @@
+2018-06-30 23:03:14.882  INFO 6696 --- [main] c.q.a.t.TSPerfAgentApplication           : Starting TSPerfAgentApplication on John-PC with PID 6696 (D:\git\tsperf_agent\target\classes started by John in D:\git\tsperf_agent)
+2018-06-30 23:03:14.902  INFO 6696 --- [main] c.q.a.t.TSPerfAgentApplication           : No active profile set, falling back to default profiles: default
+2018-06-30 23:03:15.314  INFO 6696 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3aefe5e5: startup date [Sat Jun 30 23:03:15 CST 2018]; root of context hierarchy
+2018-06-30 23:03:22.313  INFO 6696 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-06-30 23:03:22.597  INFO 6696 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-06-30 23:03:22.598  INFO 6696 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-06-30 23:03:22.676  INFO 6696 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_171\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\Git\cmd;C:\ProgramGreen\apache-maven-3.5.3/bin;C:\Program Files\Java\jdk1.8.0_171/bin;C:\Program Files\nodejs\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\John\AppData\Roaming\npm;.]
+2018-06-30 23:03:23.330  INFO 6696 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-06-30 23:03:23.331  INFO 6696 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 8017 ms
+2018-06-30 23:03:23.656  INFO 6696 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-06-30 23:03:23.670  INFO 6696 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-06-30 23:03:23.670  INFO 6696 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-06-30 23:03:23.670  INFO 6696 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-06-30 23:03:23.671  INFO 6696 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-06-30 23:03:23.916  WARN 6696 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'TSPerfAgentCtl': Unsatisfied dependency expressed through field 'metricService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.qinjun.autotest.tsperfagent.service.IMetricService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2018-06-30 23:03:23.923  INFO 6696 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2018-06-30 23:03:23.980  INFO 6696 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-06-30 23:03:24.206 ERROR 6696 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field metricService in com.qinjun.autotest.tsperfagent.controller.TSPerfAgentCtl required a bean of type 'com.qinjun.autotest.tsperfagent.service.IMetricService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.qinjun.autotest.tsperfagent.service.IMetricService' in your configuration.
+
+2018-06-30 23:05:29.311  INFO 3528 --- [main] c.q.a.t.TSPerfAgentApplication           : Starting TSPerfAgentApplication on John-PC with PID 3528 (D:\git\tsperf_agent\target\classes started by John in D:\git\tsperf_agent)
+2018-06-30 23:05:29.322  INFO 3528 --- [main] c.q.a.t.TSPerfAgentApplication           : No active profile set, falling back to default profiles: default
+2018-06-30 23:05:29.458  INFO 3528 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7f010382: startup date [Sat Jun 30 23:05:29 CST 2018]; root of context hierarchy
+2018-06-30 23:05:32.242  INFO 3528 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-06-30 23:05:32.309  INFO 3528 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-06-30 23:05:32.310  INFO 3528 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-06-30 23:05:32.329  INFO 3528 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_171\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\Git\cmd;C:\ProgramGreen\apache-maven-3.5.3/bin;C:\Program Files\Java\jdk1.8.0_171/bin;C:\Program Files\nodejs\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\John\AppData\Roaming\npm;.]
+2018-06-30 23:05:32.573  INFO 3528 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-06-30 23:05:32.573  INFO 3528 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3115 ms
+2018-06-30 23:05:32.776  INFO 3528 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-06-30 23:05:32.783  INFO 3528 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-06-30 23:05:32.783  INFO 3528 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-06-30 23:05:32.784  INFO 3528 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-06-30 23:05:32.784  INFO 3528 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-06-30 23:05:32.842  WARN 3528 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'TSPerfAgentCtl': Unsatisfied dependency expressed through field 'metricService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.qinjun.autotest.tsperfagent.service.IMetricService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2018-06-30 23:05:32.847  INFO 3528 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2018-06-30 23:05:32.870  INFO 3528 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-06-30 23:05:33.049 ERROR 3528 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field metricService in com.qinjun.autotest.tsperfagent.controller.TSPerfAgentCtl required a bean of type 'com.qinjun.autotest.tsperfagent.service.IMetricService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.qinjun.autotest.tsperfagent.service.IMetricService' in your configuration.
+
+2018-06-30 23:11:49.596  INFO 6900 --- [main] c.q.a.t.TSPerfAgentApplication           : Starting TSPerfAgentApplication on John-PC with PID 6900 (D:\git\tsperf_agent\target\classes started by John in D:\git\tsperf_agent)
+2018-06-30 23:11:49.601  INFO 6900 --- [main] c.q.a.t.TSPerfAgentApplication           : No active profile set, falling back to default profiles: default
+2018-06-30 23:11:49.845  INFO 6900 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@149e0f5d: startup date [Sat Jun 30 23:11:49 CST 2018]; root of context hierarchy
+2018-06-30 23:11:52.732  INFO 6900 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-06-30 23:11:52.771  INFO 6900 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-06-30 23:11:52.772  INFO 6900 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-06-30 23:11:52.788  INFO 6900 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_171\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\Git\cmd;C:\ProgramGreen\apache-maven-3.5.3/bin;C:\Program Files\Java\jdk1.8.0_171/bin;C:\Program Files\nodejs\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\John\AppData\Roaming\npm;.]
+2018-06-30 23:11:52.964  INFO 6900 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-06-30 23:11:52.964  INFO 6900 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3119 ms
+2018-06-30 23:11:53.171  INFO 6900 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-06-30 23:11:53.181  INFO 6900 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-06-30 23:11:53.182  INFO 6900 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-06-30 23:11:53.183  INFO 6900 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-06-30 23:11:53.183  INFO 6900 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-06-30 23:11:53.252  WARN 6900 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'TSPerfAgentCtl': Unsatisfied dependency expressed through field 'metricService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'metricServiceImpl': Unsatisfied dependency expressed through field 'cpuService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'cpuServiceImpl': Unsatisfied dependency expressed through field 'cpuDao'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.qinjun.autotest.tsperfagent.model.dao.ICpuDao' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2018-06-30 23:11:53.255  INFO 6900 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2018-06-30 23:11:53.277  INFO 6900 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-06-30 23:11:53.422 ERROR 6900 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field cpuDao in com.qinjun.autotest.tsperfagent.service.impl.CpuServiceImpl required a bean of type 'com.qinjun.autotest.tsperfagent.model.dao.ICpuDao' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.qinjun.autotest.tsperfagent.model.dao.ICpuDao' in your configuration.
+
+2018-06-30 23:20:53.369  INFO 4676 --- [main] c.q.a.t.TSPerfAgentApplication           : Starting TSPerfAgentApplication on John-PC with PID 4676 (D:\git\tsperf_agent\target\classes started by John in D:\git\tsperf_agent)
+2018-06-30 23:20:53.379  INFO 4676 --- [main] c.q.a.t.TSPerfAgentApplication           : No active profile set, falling back to default profiles: default
+2018-06-30 23:20:53.459  INFO 4676 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2ea227af: startup date [Sat Jun 30 23:20:53 CST 2018]; root of context hierarchy
+2018-06-30 23:20:56.444  INFO 4676 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-06-30 23:20:56.479  INFO 4676 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-06-30 23:20:56.480  INFO 4676 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-06-30 23:20:56.491  INFO 4676 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_171\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\Git\cmd;C:\ProgramGreen\apache-maven-3.5.3/bin;C:\Program Files\Java\jdk1.8.0_171/bin;C:\Program Files\nodejs\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\John\AppData\Roaming\npm;.]
+2018-06-30 23:20:56.690  INFO 4676 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-06-30 23:20:56.690  INFO 4676 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3231 ms
+2018-06-30 23:20:56.882  INFO 4676 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-06-30 23:20:56.889  INFO 4676 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-06-30 23:20:56.889  INFO 4676 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-06-30 23:20:56.890  INFO 4676 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-06-30 23:20:56.890  INFO 4676 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-06-30 23:20:57.209  INFO 4676 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-30 23:20:57.778  INFO 4676 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2ea227af: startup date [Sat Jun 30 23:20:53 CST 2018]; root of context hierarchy
+2018-06-30 23:20:58.107  INFO 4676 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-06-30 23:20:58.110  INFO 4676 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-06-30 23:20:58.146  INFO 4676 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-30 23:20:58.146  INFO 4676 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-30 23:20:58.543  INFO 4676 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-06-30 23:20:58.759  INFO 4676 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2018-06-30 23:20:58.765  INFO 4676 --- [main] c.q.a.t.TSPerfAgentApplication           : Started TSPerfAgentApplication in 6.134 seconds (JVM running for 6.837)
+2018-06-30 23:24:16.958  INFO 4676 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-06-30 23:24:16.959  INFO 4676 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-06-30 23:24:17.008  INFO 4676 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 49 ms
+2018-06-30 23:27:16.044  INFO 3932 --- [main] c.q.a.t.TSPerfAgentApplication           : Starting TSPerfAgentApplication on John-PC with PID 3932 (D:\git\tsperf_agent\target\classes started by John in D:\git\tsperf_agent)
+2018-06-30 23:27:16.050  INFO 3932 --- [main] c.q.a.t.TSPerfAgentApplication           : No active profile set, falling back to default profiles: default
+2018-06-30 23:27:16.320  INFO 3932 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4386f16: startup date [Sat Jun 30 23:27:16 CST 2018]; root of context hierarchy
+2018-06-30 23:27:19.036  INFO 3932 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-06-30 23:27:19.071  INFO 3932 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-06-30 23:27:19.072  INFO 3932 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-06-30 23:27:19.086  INFO 3932 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_171\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\Git\cmd;C:\ProgramGreen\apache-maven-3.5.3/bin;C:\Program Files\Java\jdk1.8.0_171/bin;C:\Program Files\nodejs\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\John\AppData\Roaming\npm;.]
+2018-06-30 23:27:19.284  INFO 3932 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-06-30 23:27:19.285  INFO 3932 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2966 ms
+2018-06-30 23:27:19.493  INFO 3932 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-06-30 23:27:19.500  INFO 3932 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-06-30 23:27:19.501  INFO 3932 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-06-30 23:27:19.501  INFO 3932 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-06-30 23:27:19.503  INFO 3932 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-06-30 23:27:19.734  INFO 3932 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-30 23:27:20.061  INFO 3932 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4386f16: startup date [Sat Jun 30 23:27:16 CST 2018]; root of context hierarchy
+2018-06-30 23:27:20.170  INFO 3932 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/v1/job/start]}" onto public com.qinjun.autotest.tsperfagent.controller.Response com.qinjun.autotest.tsperfagent.controller.TSPerfAgentCtl.start()
+2018-06-30 23:27:20.172  INFO 3932 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/v1/job/stop]}" onto public com.qinjun.autotest.tsperfagent.controller.Response com.qinjun.autotest.tsperfagent.controller.TSPerfAgentCtl.stop()
+2018-06-30 23:27:20.178  INFO 3932 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-06-30 23:27:20.179  INFO 3932 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-06-30 23:27:20.215  INFO 3932 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-30 23:27:20.215  INFO 3932 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-30 23:27:20.435  INFO 3932 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-06-30 23:27:20.511  INFO 3932 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2018-06-30 23:27:20.516  INFO 3932 --- [main] c.q.a.t.TSPerfAgentApplication           : Started TSPerfAgentApplication in 5.255 seconds (JVM running for 5.971)
+2018-06-30 23:34:11.687  INFO 3932 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-06-30 23:34:11.687  INFO 3932 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-06-30 23:34:11.707  INFO 3932 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 20 ms
+2018-06-30 23:34:12.798  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.cache size, value=-1
+2018-06-30 23:34:12.798  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.core num, value=4
+2018-06-30 23:34:12.798  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.idle, value=0
+2018-06-30 23:34:12.798  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.mhz, value=2194
+2018-06-30 23:34:12.798  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.model, value=Core(TM) i5-5200U CPU @ 2.20GHz
+2018-06-30 23:34:12.799  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.total, value=113397100
+2018-06-30 23:34:12.799  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.vendor, value=Intel
+2018-06-30 23:34:12.799  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.free, value=4089248
+2018-06-30 23:34:12.799  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.total, value=8116412
+2018-06-30 23:34:12.799  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.used, value=4027164
+2018-06-30 23:34:12.799  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.free, value=11154696
+2018-06-30 23:34:12.799  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.total, value=8116412
+2018-06-30 23:34:12.799  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.used, value=5076268
+2018-06-30 23:34:13.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.cache size, value=-1
+2018-06-30 23:34:13.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.core num, value=4
+2018-06-30 23:34:13.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.idle, value=0
+2018-06-30 23:34:13.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.mhz, value=2194
+2018-06-30 23:34:13.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.model, value=Core(TM) i5-5200U CPU @ 2.20GHz
+2018-06-30 23:34:13.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.total, value=113397100
+2018-06-30 23:34:13.796  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.vendor, value=Intel
+2018-06-30 23:34:13.796  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.free, value=4087764
+2018-06-30 23:34:13.796  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.total, value=8116412
+2018-06-30 23:34:13.796  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.used, value=4028648
+2018-06-30 23:34:13.796  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.free, value=11154076
+2018-06-30 23:34:13.796  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.total, value=8116412
+2018-06-30 23:34:13.796  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.used, value=5076888
+2018-06-30 23:34:14.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.cache size, value=-1
+2018-06-30 23:34:14.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.core num, value=4
+2018-06-30 23:34:14.796  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.idle, value=0
+2018-06-30 23:34:14.797  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.mhz, value=2194
+2018-06-30 23:34:14.797  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.model, value=Core(TM) i5-5200U CPU @ 2.20GHz
+2018-06-30 23:34:14.797  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.total, value=113397100
+2018-06-30 23:34:14.797  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.vendor, value=Intel
+2018-06-30 23:34:14.797  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.free, value=4088652
+2018-06-30 23:34:14.797  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.total, value=8116412
+2018-06-30 23:34:14.797  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.used, value=4027760
+2018-06-30 23:34:14.798  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.free, value=11158860
+2018-06-30 23:34:14.798  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.total, value=8116412
+2018-06-30 23:34:14.798  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.used, value=5072104
+2018-06-30 23:34:15.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.cache size, value=-1
+2018-06-30 23:34:15.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.core num, value=4
+2018-06-30 23:34:15.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.idle, value=0
+2018-06-30 23:34:15.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.mhz, value=2194
+2018-06-30 23:34:15.796  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.model, value=Core(TM) i5-5200U CPU @ 2.20GHz
+2018-06-30 23:34:15.796  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.total, value=113397100
+2018-06-30 23:34:15.796  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.vendor, value=Intel
+2018-06-30 23:34:15.796  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.free, value=4099968
+2018-06-30 23:34:15.796  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.total, value=8116412
+2018-06-30 23:34:15.796  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.used, value=4016444
+2018-06-30 23:34:15.796  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.free, value=11177320
+2018-06-30 23:34:15.796  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.total, value=8116412
+2018-06-30 23:34:15.796  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.used, value=5053644
+2018-06-30 23:34:16.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.cache size, value=-1
+2018-06-30 23:34:16.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.core num, value=4
+2018-06-30 23:34:16.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.idle, value=0
+2018-06-30 23:34:16.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.mhz, value=2194
+2018-06-30 23:34:16.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.model, value=Core(TM) i5-5200U CPU @ 2.20GHz
+2018-06-30 23:34:16.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.total, value=113397100
+2018-06-30 23:34:16.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.vendor, value=Intel
+2018-06-30 23:34:16.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.free, value=4100156
+2018-06-30 23:34:16.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.total, value=8116412
+2018-06-30 23:34:16.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.used, value=4016256
+2018-06-30 23:34:16.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.free, value=11177588
+2018-06-30 23:34:16.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.total, value=8116412
+2018-06-30 23:34:16.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.used, value=5053376
+2018-06-30 23:34:17.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.cache size, value=-1
+2018-06-30 23:34:17.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.core num, value=4
+2018-06-30 23:34:17.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.idle, value=0
+2018-06-30 23:34:17.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.mhz, value=2194
+2018-06-30 23:34:17.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.model, value=Core(TM) i5-5200U CPU @ 2.20GHz
+2018-06-30 23:34:17.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.total, value=113397100
+2018-06-30 23:34:17.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.vendor, value=Intel
+2018-06-30 23:34:17.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.free, value=4094736
+2018-06-30 23:34:17.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.total, value=8116412
+2018-06-30 23:34:17.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.used, value=4021676
+2018-06-30 23:34:17.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.free, value=11177584
+2018-06-30 23:34:17.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.total, value=8116412
+2018-06-30 23:34:17.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.used, value=5053380
+2018-06-30 23:34:18.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.cache size, value=-1
+2018-06-30 23:34:18.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.core num, value=4
+2018-06-30 23:34:18.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.idle, value=0
+2018-06-30 23:34:18.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.mhz, value=2194
+2018-06-30 23:34:18.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.model, value=Core(TM) i5-5200U CPU @ 2.20GHz
+2018-06-30 23:34:18.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.total, value=113397100
+2018-06-30 23:34:18.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.vendor, value=Intel
+2018-06-30 23:34:18.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.free, value=4096364
+2018-06-30 23:34:18.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.total, value=8116412
+2018-06-30 23:34:18.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.used, value=4020048
+2018-06-30 23:34:18.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.free, value=11177584
+2018-06-30 23:34:18.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.total, value=8116412
+2018-06-30 23:34:18.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.used, value=5053380
+2018-06-30 23:34:19.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.cache size, value=-1
+2018-06-30 23:34:19.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.core num, value=4
+2018-06-30 23:34:19.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.idle, value=0
+2018-06-30 23:34:19.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.mhz, value=2194
+2018-06-30 23:34:19.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.model, value=Core(TM) i5-5200U CPU @ 2.20GHz
+2018-06-30 23:34:19.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.total, value=113397100
+2018-06-30 23:34:19.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.vendor, value=Intel
+2018-06-30 23:34:19.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.free, value=4096312
+2018-06-30 23:34:19.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.total, value=8116412
+2018-06-30 23:34:19.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.used, value=4020100
+2018-06-30 23:34:19.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.free, value=11177192
+2018-06-30 23:34:19.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.total, value=8116412
+2018-06-30 23:34:19.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.used, value=5053772
+2018-06-30 23:34:20.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.cache size, value=-1
+2018-06-30 23:34:20.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.core num, value=4
+2018-06-30 23:34:20.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.idle, value=0
+2018-06-30 23:34:20.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.mhz, value=2194
+2018-06-30 23:34:20.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.model, value=Core(TM) i5-5200U CPU @ 2.20GHz
+2018-06-30 23:34:20.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.total, value=113397100
+2018-06-30 23:34:20.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.vendor, value=Intel
+2018-06-30 23:34:20.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.free, value=4085352
+2018-06-30 23:34:20.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.total, value=8116412
+2018-06-30 23:34:20.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.used, value=4031060
+2018-06-30 23:34:20.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.free, value=11177160
+2018-06-30 23:34:20.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.total, value=8116412
+2018-06-30 23:34:20.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.used, value=5053804
+2018-06-30 23:34:21.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.cache size, value=-1
+2018-06-30 23:34:21.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.core num, value=4
+2018-06-30 23:34:21.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.idle, value=0
+2018-06-30 23:34:21.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.mhz, value=2194
+2018-06-30 23:34:21.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.model, value=Core(TM) i5-5200U CPU @ 2.20GHz
+2018-06-30 23:34:21.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.total, value=113397100
+2018-06-30 23:34:21.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.vendor, value=Intel
+2018-06-30 23:34:21.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.free, value=4073208
+2018-06-30 23:34:21.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.total, value=8116412
+2018-06-30 23:34:21.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.used, value=4043204
+2018-06-30 23:34:21.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.free, value=11176952
+2018-06-30 23:34:21.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.total, value=8116412
+2018-06-30 23:34:21.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.used, value=5054012
+2018-06-30 23:34:22.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.cache size, value=-1
+2018-06-30 23:34:22.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.core num, value=4
+2018-06-30 23:34:22.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.idle, value=0
+2018-06-30 23:34:22.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.mhz, value=2194
+2018-06-30 23:34:22.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.model, value=Core(TM) i5-5200U CPU @ 2.20GHz
+2018-06-30 23:34:22.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.total, value=113397100
+2018-06-30 23:34:22.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.vendor, value=Intel
+2018-06-30 23:34:22.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.free, value=4062384
+2018-06-30 23:34:22.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.total, value=8116412
+2018-06-30 23:34:22.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.used, value=4054028
+2018-06-30 23:34:22.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.free, value=11098028
+2018-06-30 23:34:22.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.total, value=8116412
+2018-06-30 23:34:22.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.used, value=5132936
+2018-06-30 23:34:23.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.cache size, value=-1
+2018-06-30 23:34:23.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.core num, value=4
+2018-06-30 23:34:23.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.idle, value=0
+2018-06-30 23:34:23.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.mhz, value=2194
+2018-06-30 23:34:23.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.model, value=Core(TM) i5-5200U CPU @ 2.20GHz
+2018-06-30 23:34:23.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.total, value=113397100
+2018-06-30 23:34:23.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.vendor, value=Intel
+2018-06-30 23:34:23.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.free, value=4062496
+2018-06-30 23:34:23.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.total, value=8116412
+2018-06-30 23:34:23.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.used, value=4053916
+2018-06-30 23:34:23.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.free, value=11097080
+2018-06-30 23:34:23.796  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.total, value=8116412
+2018-06-30 23:34:23.796  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.used, value=5133884
+2018-06-30 23:34:24.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.cache size, value=-1
+2018-06-30 23:34:24.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.core num, value=4
+2018-06-30 23:34:24.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.idle, value=0
+2018-06-30 23:34:24.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.mhz, value=2194
+2018-06-30 23:34:24.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.model, value=Core(TM) i5-5200U CPU @ 2.20GHz
+2018-06-30 23:34:24.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.total, value=113397100
+2018-06-30 23:34:24.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.vendor, value=Intel
+2018-06-30 23:34:24.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.free, value=4063592
+2018-06-30 23:34:24.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.total, value=8116412
+2018-06-30 23:34:24.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.used, value=4052820
+2018-06-30 23:34:24.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.free, value=11097080
+2018-06-30 23:34:24.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.total, value=8116412
+2018-06-30 23:34:24.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.used, value=5133884
+2018-06-30 23:34:25.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.cache size, value=-1
+2018-06-30 23:34:25.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.core num, value=4
+2018-06-30 23:34:25.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.idle, value=0
+2018-06-30 23:34:25.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.mhz, value=2194
+2018-06-30 23:34:25.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.model, value=Core(TM) i5-5200U CPU @ 2.20GHz
+2018-06-30 23:34:25.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.total, value=113397100
+2018-06-30 23:34:25.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.vendor, value=Intel
+2018-06-30 23:34:25.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.free, value=4063628
+2018-06-30 23:34:25.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.total, value=8116412
+2018-06-30 23:34:25.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.used, value=4052784
+2018-06-30 23:34:25.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.free, value=11097060
+2018-06-30 23:34:25.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.total, value=8116412
+2018-06-30 23:34:25.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.used, value=5133904
+2018-06-30 23:34:26.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.cache size, value=-1
+2018-06-30 23:34:26.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.core num, value=4
+2018-06-30 23:34:26.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.idle, value=0
+2018-06-30 23:34:26.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.mhz, value=2194
+2018-06-30 23:34:26.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.model, value=Core(TM) i5-5200U CPU @ 2.20GHz
+2018-06-30 23:34:26.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.total, value=113397100
+2018-06-30 23:34:26.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.vendor, value=Intel
+2018-06-30 23:34:26.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.free, value=4064664
+2018-06-30 23:34:26.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.total, value=8116412
+2018-06-30 23:34:26.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.used, value=4051748
+2018-06-30 23:34:26.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.free, value=11097060
+2018-06-30 23:34:26.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.total, value=8116412
+2018-06-30 23:34:26.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.used, value=5133904
+2018-06-30 23:34:27.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.cache size, value=-1
+2018-06-30 23:34:27.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.core num, value=4
+2018-06-30 23:34:27.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.idle, value=0
+2018-06-30 23:34:27.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.mhz, value=2194
+2018-06-30 23:34:27.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.model, value=Core(TM) i5-5200U CPU @ 2.20GHz
+2018-06-30 23:34:27.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.total, value=113397100
+2018-06-30 23:34:27.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.vendor, value=Intel
+2018-06-30 23:34:27.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.free, value=4064788
+2018-06-30 23:34:27.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.total, value=8116412
+2018-06-30 23:34:27.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.used, value=4051624
+2018-06-30 23:34:27.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.free, value=11097076
+2018-06-30 23:34:27.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.total, value=8116412
+2018-06-30 23:34:27.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.used, value=5133888
+2018-06-30 23:34:28.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.cache size, value=-1
+2018-06-30 23:34:28.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.core num, value=4
+2018-06-30 23:34:28.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.idle, value=0
+2018-06-30 23:34:28.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.mhz, value=2194
+2018-06-30 23:34:28.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.model, value=Core(TM) i5-5200U CPU @ 2.20GHz
+2018-06-30 23:34:28.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.total, value=113397100
+2018-06-30 23:34:28.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.vendor, value=Intel
+2018-06-30 23:34:28.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.free, value=4064932
+2018-06-30 23:34:28.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.total, value=8116412
+2018-06-30 23:34:28.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.used, value=4051480
+2018-06-30 23:34:28.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.free, value=11095816
+2018-06-30 23:34:28.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.total, value=8116412
+2018-06-30 23:34:28.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.used, value=5135148
+2018-06-30 23:34:29.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.cache size, value=-1
+2018-06-30 23:34:29.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.core num, value=4
+2018-06-30 23:34:29.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.idle, value=0
+2018-06-30 23:34:29.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.mhz, value=2194
+2018-06-30 23:34:29.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.model, value=Core(TM) i5-5200U CPU @ 2.20GHz
+2018-06-30 23:34:29.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.total, value=113397100
+2018-06-30 23:34:29.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.vendor, value=Intel
+2018-06-30 23:34:29.796  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.free, value=4065044
+2018-06-30 23:34:29.796  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.total, value=8116412
+2018-06-30 23:34:29.796  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.used, value=4051368
+2018-06-30 23:34:29.796  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.free, value=11095816
+2018-06-30 23:34:29.796  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.total, value=8116412
+2018-06-30 23:34:29.796  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.used, value=5135148
+2018-06-30 23:34:30.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.cache size, value=-1
+2018-06-30 23:34:30.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.core num, value=4
+2018-06-30 23:34:30.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.idle, value=0
+2018-06-30 23:34:30.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.mhz, value=2194
+2018-06-30 23:34:30.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.model, value=Core(TM) i5-5200U CPU @ 2.20GHz
+2018-06-30 23:34:30.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.total, value=113397100
+2018-06-30 23:34:30.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.vendor, value=Intel
+2018-06-30 23:34:30.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.free, value=4065072
+2018-06-30 23:34:30.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.total, value=8116412
+2018-06-30 23:34:30.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.used, value=4051340
+2018-06-30 23:34:30.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.free, value=11094608
+2018-06-30 23:34:30.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.total, value=8116412
+2018-06-30 23:34:30.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.used, value=5136356
+2018-06-30 23:34:31.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.cache size, value=-1
+2018-06-30 23:34:31.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.core num, value=4
+2018-06-30 23:34:31.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.idle, value=0
+2018-06-30 23:34:31.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.mhz, value=2194
+2018-06-30 23:34:31.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.model, value=Core(TM) i5-5200U CPU @ 2.20GHz
+2018-06-30 23:34:31.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.total, value=113397100
+2018-06-30 23:34:31.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.vendor, value=Intel
+2018-06-30 23:34:31.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.free, value=4065272
+2018-06-30 23:34:31.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.total, value=8116412
+2018-06-30 23:34:31.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.used, value=4051140
+2018-06-30 23:34:31.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.free, value=11094392
+2018-06-30 23:34:31.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.total, value=8116412
+2018-06-30 23:34:31.796  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.used, value=5136572
+2018-06-30 23:34:32.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.cache size, value=-1
+2018-06-30 23:34:32.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.core num, value=4
+2018-06-30 23:34:32.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.idle, value=0
+2018-06-30 23:34:32.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.mhz, value=2194
+2018-06-30 23:34:32.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.model, value=Core(TM) i5-5200U CPU @ 2.20GHz
+2018-06-30 23:34:32.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.total, value=113397100
+2018-06-30 23:34:32.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.vendor, value=Intel
+2018-06-30 23:34:32.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.free, value=4065156
+2018-06-30 23:34:32.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.total, value=8116412
+2018-06-30 23:34:32.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.used, value=4051256
+2018-06-30 23:34:32.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.free, value=11094388
+2018-06-30 23:34:32.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.total, value=8116412
+2018-06-30 23:34:32.796  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.used, value=5136576
+2018-06-30 23:34:33.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.cache size, value=-1
+2018-06-30 23:34:33.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.core num, value=4
+2018-06-30 23:34:33.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.idle, value=0
+2018-06-30 23:34:33.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.mhz, value=2194
+2018-06-30 23:34:33.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.model, value=Core(TM) i5-5200U CPU @ 2.20GHz
+2018-06-30 23:34:33.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.total, value=113397100
+2018-06-30 23:34:33.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.vendor, value=Intel
+2018-06-30 23:34:33.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.free, value=4066240
+2018-06-30 23:34:33.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.total, value=8116412
+2018-06-30 23:34:33.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.used, value=4050172
+2018-06-30 23:34:33.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.free, value=11094352
+2018-06-30 23:34:33.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.total, value=8116412
+2018-06-30 23:34:33.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.used, value=5136612
+2018-06-30 23:34:34.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.cache size, value=-1
+2018-06-30 23:34:34.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.core num, value=4
+2018-06-30 23:34:34.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.idle, value=0
+2018-06-30 23:34:34.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.mhz, value=2194
+2018-06-30 23:34:34.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.model, value=Core(TM) i5-5200U CPU @ 2.20GHz
+2018-06-30 23:34:34.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.total, value=113397100
+2018-06-30 23:34:34.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.vendor, value=Intel
+2018-06-30 23:34:34.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.free, value=4060136
+2018-06-30 23:34:34.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.total, value=8116412
+2018-06-30 23:34:34.796  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.used, value=4056276
+2018-06-30 23:34:34.796  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.free, value=11099464
+2018-06-30 23:34:34.796  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.total, value=8116412
+2018-06-30 23:34:34.796  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.used, value=5131500
+2018-06-30 23:34:35.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.cache size, value=-1
+2018-06-30 23:34:35.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.core num, value=4
+2018-06-30 23:34:35.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.idle, value=0
+2018-06-30 23:34:35.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.mhz, value=2194
+2018-06-30 23:34:35.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.model, value=Core(TM) i5-5200U CPU @ 2.20GHz
+2018-06-30 23:34:35.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.total, value=113397100
+2018-06-30 23:34:35.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.vendor, value=Intel
+2018-06-30 23:34:35.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.free, value=4060128
+2018-06-30 23:34:35.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.total, value=8116412
+2018-06-30 23:34:35.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.used, value=4056284
+2018-06-30 23:34:35.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.free, value=11099464
+2018-06-30 23:34:35.795  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.total, value=8116412
+2018-06-30 23:34:35.796  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.used, value=5131500
+2018-06-30 23:34:36.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.cache size, value=-1
+2018-06-30 23:34:36.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.core num, value=4
+2018-06-30 23:34:36.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.idle, value=0
+2018-06-30 23:34:36.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.mhz, value=2194
+2018-06-30 23:34:36.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.model, value=Core(TM) i5-5200U CPU @ 2.20GHz
+2018-06-30 23:34:36.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.total, value=113397100
+2018-06-30 23:34:36.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.vendor, value=Intel
+2018-06-30 23:34:36.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.free, value=4058216
+2018-06-30 23:34:36.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.total, value=8116412
+2018-06-30 23:34:36.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.used, value=4058196
+2018-06-30 23:34:36.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.free, value=11099432
+2018-06-30 23:34:36.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.total, value=8116412
+2018-06-30 23:34:36.794  INFO 3932 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.used, value=5131532
+2018-06-30 23:37:30.550  INFO 3444 --- [main] c.q.a.t.TSPerfAgentApplication           : Starting TSPerfAgentApplication on John-PC with PID 3444 (D:\git\tsperf_agent\target\classes started by John in D:\git\tsperf_agent)
+2018-06-30 23:37:30.558  INFO 3444 --- [main] c.q.a.t.TSPerfAgentApplication           : No active profile set, falling back to default profiles: default
+2018-06-30 23:37:30.674  INFO 3444 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7f010382: startup date [Sat Jun 30 23:37:30 CST 2018]; root of context hierarchy
+2018-06-30 23:37:33.635  INFO 3444 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-06-30 23:37:33.678  INFO 3444 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-06-30 23:37:33.678  INFO 3444 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-06-30 23:37:33.699  INFO 3444 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_171\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\Git\cmd;C:\ProgramGreen\apache-maven-3.5.3/bin;C:\Program Files\Java\jdk1.8.0_171/bin;C:\Program Files\nodejs\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\John\AppData\Roaming\npm;.]
+2018-06-30 23:37:33.902  INFO 3444 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-06-30 23:37:33.903  INFO 3444 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3229 ms
+2018-06-30 23:37:34.082  INFO 3444 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-06-30 23:37:34.087  INFO 3444 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-06-30 23:37:34.087  INFO 3444 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-06-30 23:37:34.088  INFO 3444 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-06-30 23:37:34.088  INFO 3444 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-06-30 23:37:34.314  INFO 3444 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-30 23:37:34.653  INFO 3444 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7f010382: startup date [Sat Jun 30 23:37:30 CST 2018]; root of context hierarchy
+2018-06-30 23:37:34.764  INFO 3444 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/v1/job/start]}" onto public com.qinjun.autotest.tsperfagent.controller.Response com.qinjun.autotest.tsperfagent.controller.TSPerfAgentCtl.start()
+2018-06-30 23:37:34.765  INFO 3444 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/v1/job/stop]}" onto public com.qinjun.autotest.tsperfagent.controller.Response com.qinjun.autotest.tsperfagent.controller.TSPerfAgentCtl.stop()
+2018-06-30 23:37:34.770  INFO 3444 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-06-30 23:37:34.772  INFO 3444 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-06-30 23:37:34.808  INFO 3444 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-30 23:37:34.808  INFO 3444 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-30 23:37:35.055  INFO 3444 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-06-30 23:37:35.133  INFO 3444 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2018-06-30 23:37:35.140  INFO 3444 --- [main] c.q.a.t.TSPerfAgentApplication           : Started TSPerfAgentApplication in 5.271 seconds (JVM running for 5.967)
+2018-06-30 23:37:48.421  INFO 3444 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-06-30 23:37:48.422  INFO 3444 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-06-30 23:37:48.442  INFO 3444 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 20 ms
+2018-06-30 23:37:49.498  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.cache size, value=-1
+2018-06-30 23:37:49.498  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.core num, value=4
+2018-06-30 23:37:49.499  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.idle, value=42405126
+2018-06-30 23:37:49.499  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.mhz, value=2194
+2018-06-30 23:37:49.499  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.model, value=Core(TM) i5-5200U CPU @ 2.20GHz
+2018-06-30 23:37:49.499  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.total, value=115564108
+2018-06-30 23:37:49.499  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.vendor, value=Intel
+2018-06-30 23:37:49.499  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.free(k), value=4066396
+2018-06-30 23:37:49.499  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.total(k), value=8116412
+2018-06-30 23:37:49.500  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.used(k), value=4050016
+2018-06-30 23:37:49.500  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.free(k), value=11125156
+2018-06-30 23:37:49.500  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.total(k), value=8116412
+2018-06-30 23:37:49.500  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.used(k), value=5105808
+2018-06-30 23:37:50.495  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.cache size, value=-1
+2018-06-30 23:37:50.495  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.core num, value=4
+2018-06-30 23:37:50.495  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.idle, value=42406920
+2018-06-30 23:37:50.495  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.mhz, value=2194
+2018-06-30 23:37:50.496  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.model, value=Core(TM) i5-5200U CPU @ 2.20GHz
+2018-06-30 23:37:50.496  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.total, value=115564108
+2018-06-30 23:37:50.496  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.vendor, value=Intel
+2018-06-30 23:37:50.496  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.free(k), value=4092404
+2018-06-30 23:37:50.496  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.total(k), value=8116412
+2018-06-30 23:37:50.496  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.used(k), value=4024008
+2018-06-30 23:37:50.496  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.free(k), value=11154020
+2018-06-30 23:37:50.496  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.total(k), value=8116412
+2018-06-30 23:37:50.496  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.used(k), value=5076944
+2018-06-30 23:37:51.495  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.cache size, value=-1
+2018-06-30 23:37:51.495  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.core num, value=4
+2018-06-30 23:37:51.495  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.idle, value=42408917
+2018-06-30 23:37:51.495  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.mhz, value=2194
+2018-06-30 23:37:51.495  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.model, value=Core(TM) i5-5200U CPU @ 2.20GHz
+2018-06-30 23:37:51.495  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.total, value=115564108
+2018-06-30 23:37:51.496  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.vendor, value=Intel
+2018-06-30 23:37:51.496  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.free(k), value=4093424
+2018-06-30 23:37:51.496  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.total(k), value=8116412
+2018-06-30 23:37:51.496  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.used(k), value=4022988
+2018-06-30 23:37:51.496  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.free(k), value=11154788
+2018-06-30 23:37:51.496  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.total(k), value=8116412
+2018-06-30 23:37:51.496  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.used(k), value=5076176
+2018-06-30 23:37:52.495  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.cache size, value=-1
+2018-06-30 23:37:52.495  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.core num, value=4
+2018-06-30 23:37:52.495  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.idle, value=42410788
+2018-06-30 23:37:52.495  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.mhz, value=2194
+2018-06-30 23:37:52.495  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.model, value=Core(TM) i5-5200U CPU @ 2.20GHz
+2018-06-30 23:37:52.495  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.total, value=115564108
+2018-06-30 23:37:52.496  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.vendor, value=Intel
+2018-06-30 23:37:52.496  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.free(k), value=4093572
+2018-06-30 23:37:52.496  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.total(k), value=8116412
+2018-06-30 23:37:52.496  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.used(k), value=4022840
+2018-06-30 23:37:52.496  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.free(k), value=11158100
+2018-06-30 23:37:52.496  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.total(k), value=8116412
+2018-06-30 23:37:52.496  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.used(k), value=5072864
+2018-06-30 23:37:53.495  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.cache size, value=-1
+2018-06-30 23:37:53.495  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.core num, value=4
+2018-06-30 23:37:53.497  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.idle, value=42412707
+2018-06-30 23:37:53.497  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.mhz, value=2194
+2018-06-30 23:37:53.497  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.model, value=Core(TM) i5-5200U CPU @ 2.20GHz
+2018-06-30 23:37:53.497  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.total, value=115564108
+2018-06-30 23:37:53.497  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.vendor, value=Intel
+2018-06-30 23:37:53.497  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.free(k), value=4088496
+2018-06-30 23:37:53.497  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.total(k), value=8116412
+2018-06-30 23:37:53.497  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.used(k), value=4027916
+2018-06-30 23:37:53.497  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.free(k), value=11161480
+2018-06-30 23:37:53.497  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.total(k), value=8116412
+2018-06-30 23:37:53.498  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.used(k), value=5069484
+2018-06-30 23:37:54.495  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.cache size, value=-1
+2018-06-30 23:37:54.495  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.core num, value=4
+2018-06-30 23:37:54.495  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.idle, value=42414487
+2018-06-30 23:37:54.495  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.mhz, value=2194
+2018-06-30 23:37:54.495  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.model, value=Core(TM) i5-5200U CPU @ 2.20GHz
+2018-06-30 23:37:54.495  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.total, value=115564108
+2018-06-30 23:37:54.495  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.vendor, value=Intel
+2018-06-30 23:37:54.495  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.free(k), value=4090080
+2018-06-30 23:37:54.496  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.total(k), value=8116412
+2018-06-30 23:37:54.496  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.used(k), value=4026332
+2018-06-30 23:37:54.496  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.free(k), value=11161448
+2018-06-30 23:37:54.496  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.total(k), value=8116412
+2018-06-30 23:37:54.496  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.used(k), value=5069516
+2018-06-30 23:37:55.495  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.cache size, value=-1
+2018-06-30 23:37:55.495  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.core num, value=4
+2018-06-30 23:37:55.495  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.idle, value=42416326
+2018-06-30 23:37:55.495  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.mhz, value=2194
+2018-06-30 23:37:55.495  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.model, value=Core(TM) i5-5200U CPU @ 2.20GHz
+2018-06-30 23:37:55.495  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.total, value=115564108
+2018-06-30 23:37:55.496  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=CPU.vendor, value=Intel
+2018-06-30 23:37:55.496  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.free(k), value=4090088
+2018-06-30 23:37:55.496  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.total(k), value=8116412
+2018-06-30 23:37:55.496  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Mem.used(k), value=4026324
+2018-06-30 23:37:55.496  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.free(k), value=11160332
+2018-06-30 23:37:55.496  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.total(k), value=8116412
+2018-06-30 23:37:55.496  INFO 3444 --- [metrics-logger-reporter-1-thread-1] ROOT                                     : type=GAUGE, name=Swap.used(k), value=5070632
